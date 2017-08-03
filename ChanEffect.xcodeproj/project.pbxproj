@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1C47341F31B57300A8B37A /* trainerPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */; };
+		0A1C47361F33096500A8B37A /* trainerPortalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */; };
 		0A3EDED21F116DF5009473C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDED11F116DF5009473C0 /* AppDelegate.swift */; };
 		0A3EDED41F116DF5009473C0 /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDED31F116DF5009473C0 /* CustomerTableViewController.swift */; };
 		0A3EDED71F116DF5009473C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3EDED51F116DF5009473C0 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = trainerPortalViewController.swift; path = ../trainerPortalViewController.swift; sourceTree = "<group>"; };
+		0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trainerPortalDetailViewController.swift; sourceTree = "<group>"; };
 		0A3EDECE1F116DF5009473C0 /* ChanEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChanEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3EDED11F116DF5009473C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A3EDED31F116DF5009473C0 /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				0A3EDED31F116DF5009473C0 /* CustomerTableViewController.swift */,
 				0A89085D1F218C240068CBDE /* NewClientViewController.swift */,
 				0A3EDEE91F1C4890009473C0 /* CustomerDetailViewController.swift */,
+				0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */,
+				0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */,
 				0A3EDED51F116DF5009473C0 /* Main.storyboard */,
 				0A3EDED81F116DF5009473C0 /* Assets.xcassets */,
 				0A3EDEDA1F116DF5009473C0 /* LaunchScreen.storyboard */,
@@ -255,8 +261,10 @@
 				0A89085E1F218C250068CBDE /* NewClientViewController.swift in Sources */,
 				0A3EDED41F116DF5009473C0 /* CustomerTableViewController.swift in Sources */,
 				0A3EDEEA1F1C4890009473C0 /* CustomerDetailViewController.swift in Sources */,
+				0A1C47361F33096500A8B37A /* trainerPortalDetailViewController.swift in Sources */,
 				0A3EDEE41F1A92AF009473C0 /* ClassCustomer.swift in Sources */,
 				0A3EDEE61F1A9729009473C0 /* HomeModel.swift in Sources */,
+				0A1C47341F31B57300A8B37A /* trainerPortalViewController.swift in Sources */,
 				0A3EDED21F116DF5009473C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

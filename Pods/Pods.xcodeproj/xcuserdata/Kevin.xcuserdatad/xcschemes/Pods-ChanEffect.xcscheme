@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A0AD901942B6A0D3CB523C98FD2FBAC"
+               BlueprintIdentifier = "1151C319AA102D3A6A5C2155DFC48AF9"
                BuildableName = "Pods_ChanEffect.framework"
                BlueprintName = "Pods-ChanEffect"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A0AD901942B6A0D3CB523C98FD2FBAC"
+            BlueprintIdentifier = "1151C319AA102D3A6A5C2155DFC48AF9"
             BuildableName = "Pods_ChanEffect.framework"
             BlueprintName = "Pods-ChanEffect"
             ReferencedContainer = "container:Pods.xcodeproj">

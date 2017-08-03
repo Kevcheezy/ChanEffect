@@ -1,15 +1,27 @@
 PODS:
   - Alamofire (4.2.0)
+  - CariocaMenu (1.1)
+  - MisterFusion (2.2.0)
+  - SABlurImageView (3.0.1)
+  - SAParallaxViewControllerSwift (2.0.0):
+    - MisterFusion
+    - SABlurImageView
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.2.0)
+  - CariocaMenu
+  - SAParallaxViewControllerSwift
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  CariocaMenu: 8a46b049005d42c0cc4e128c486c433f4c708a4b
+  MisterFusion: f243f4db57c523b5f55d7d9df6a298ffaac8695e
+  SABlurImageView: bd0940330d0e8571379a495623e57c436659a202
+  SAParallaxViewControllerSwift: '04939b077ef0a563be74fed16cfc0688900a3c09'
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 16fbb417d07383b4f549a75164bb6df8c482c323
+PODFILE CHECKSUM: 2df4185c20f835ae4c692cb1a0531bf20a4abf20
 
 COCOAPODS: 1.2.1

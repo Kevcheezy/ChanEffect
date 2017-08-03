@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:trainerPortalViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:ChanEffect.xcodeproj">
    </FileRef>
    <FileRef
