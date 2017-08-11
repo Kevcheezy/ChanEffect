@@ -1,5 +1,5 @@
 
-
+/*
 import UIKit
 import SAParallaxViewControllerSwift
 
@@ -20,3 +20,4 @@ class PortalDetailViewController: SADetailViewController {
         super.viewDidLoad()
     }
 }
+*/

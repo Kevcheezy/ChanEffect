@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MisterFusion.xcscheme</key>
+		<key>Charts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,40 +24,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SABlurImageView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SAParallaxViewControllerSwift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1151C319AA102D3A6A5C2155DFC48AF9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>18470281470199FCA5FF5EE1512A04E4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>392501B24C7CD9DD3837F830B7FE6E57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7ED3433890EB8058428934DED0A4F28D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7509280E0E763C9ADEAA54DEC392FDC</key>
+		<key>E672607F254909C0D1C6E6BC4B018367</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD014B5480465B54B895FB2B7760336F</key>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
 		<dict>
 			<key>primary</key>
 			<true/>

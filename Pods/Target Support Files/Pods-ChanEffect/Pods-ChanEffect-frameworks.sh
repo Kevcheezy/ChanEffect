@@ -91,18 +91,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CariocaMenu/CariocaMenu.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/MisterFusion/MisterFusion.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SABlurImageView/SABlurImageView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Charts/Charts.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CariocaMenu/CariocaMenu.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/MisterFusion/MisterFusion.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SABlurImageView/SABlurImageView.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SAParallaxViewControllerSwift/SAParallaxViewControllerSwift.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Charts/Charts.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
