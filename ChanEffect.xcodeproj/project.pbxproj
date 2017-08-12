@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1C47341F31B57300A8B37A /* trainerPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */; };
-		0A1C47361F33096500A8B37A /* trainerPortalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */; };
+		0A1C47341F31B57300A8B37A /* trainerPortal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47331F31B57300A8B37A /* trainerPortal.swift */; };
 		0A1C47761F3849C400A8B37A /* clientReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C47751F3849C400A8B37A /* clientReportViewController.swift */; };
 		0A3EDED21F116DF5009473C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDED11F116DF5009473C0 /* AppDelegate.swift */; };
 		0A3EDED41F116DF5009473C0 /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EDED31F116DF5009473C0 /* CustomerTableViewController.swift */; };
@@ -28,8 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = trainerPortalViewController.swift; path = ../trainerPortalViewController.swift; sourceTree = "<group>"; };
-		0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trainerPortalDetailViewController.swift; sourceTree = "<group>"; };
+		0A1C47331F31B57300A8B37A /* trainerPortal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = trainerPortal.swift; path = ../trainerPortal.swift; sourceTree = "<group>"; };
 		0A1C47751F3849C400A8B37A /* clientReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clientReportViewController.swift; sourceTree = "<group>"; };
 		0A3EDECE1F116DF5009473C0 /* ChanEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChanEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3EDED11F116DF5009473C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,8 +65,7 @@
 		0A1C47371F3311AF00A8B37A /* menu */ = {
 			isa = PBXGroup;
 			children = (
-				0A1C47331F31B57300A8B37A /* trainerPortalViewController.swift */,
-				0A1C47351F33096500A8B37A /* trainerPortalDetailViewController.swift */,
+				0A1C47331F31B57300A8B37A /* trainerPortal.swift */,
 			);
 			name = menu;
 			sourceTree = "<group>";
@@ -96,6 +93,7 @@
 		0A3EDEC51F116DF5009473C0 = {
 			isa = PBXGroup;
 			children = (
+				0ADA2C451F3F8784008333D9 /* Resources */,
 				0A3EDED01F116DF5009473C0 /* ChanEffect */,
 				0A3EDECF1F116DF5009473C0 /* Products */,
 				39CB4E870D18F3B0FB870567 /* Frameworks */,
@@ -137,6 +135,21 @@
 				0AB2CF141F2CFB71003BDA1E /* clientClass.php */,
 			);
 			name = webService;
+			sourceTree = "<group>";
+		};
+		0ADA2C451F3F8784008333D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ADA2C461F3F8799008333D9 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0ADA2C461F3F8799008333D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		39CB4E870D18F3B0FB870567 /* Frameworks */ = {
@@ -289,10 +302,9 @@
 				0A89085E1F218C250068CBDE /* NewClientViewController.swift in Sources */,
 				0A3EDED41F116DF5009473C0 /* CustomerTableViewController.swift in Sources */,
 				0A3EDEEA1F1C4890009473C0 /* CustomerDetailViewController.swift in Sources */,
-				0A1C47361F33096500A8B37A /* trainerPortalDetailViewController.swift in Sources */,
 				0A3EDEE41F1A92AF009473C0 /* ClassCustomer.swift in Sources */,
 				0A3EDEE61F1A9729009473C0 /* HomeModel.swift in Sources */,
-				0A1C47341F31B57300A8B37A /* trainerPortalViewController.swift in Sources */,
+				0A1C47341F31B57300A8B37A /* trainerPortal.swift in Sources */,
 				0A1C47761F3849C400A8B37A /* clientReportViewController.swift in Sources */,
 				0A3EDED21F116DF5009473C0 /* AppDelegate.swift in Sources */,
 			);
@@ -446,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kevinChan.ChanEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChanEffect/ChanEffect-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
